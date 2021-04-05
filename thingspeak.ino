@@ -7,10 +7,10 @@ int sensorPin = A0;                                                       // Ini
 int sensorValue2 = 0; 
 int val;                                                                 //Initializing val as an Integer.
 
-String apiKey = "RZUCN184XZS220BL";                                      // Assigning API pin of thingspeak channel.
+String apiKey = "Your apiKey";                                      // Assigning API pin of thingspeak channel.
 
-const char *ssid = "HACKER'S NIGHTMARE";                                //Assigning your Internet user name.
-const char *pass = "Radha@1234";                                        // Assigning password of Internet.
+const char *ssid = "Your ssid";                                //Assigning your Internet user name.
+const char *pass = "Your Password";                                        // Assigning password of Internet.
 const char *server = "api.thingspeak.com";                              // Assigning server site name.
 
 WiFiClient client;                                                      // Initializing Wifi as client.
